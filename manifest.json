@@ -1,17 +1,38 @@
 {
-  "name": "安好一日",
+  "name": "安好一日 - 温情陪伴",
   "short_name": "安好",
-  "description": "极简温情对话伴侣",
+  "description": "极简温情对话伴侣，像多年未见的老友般倾听与回应。",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8f7f2",
   "theme_color": "#f8f7f2",
+  "categories": ["lifestyle", "social", "health"],
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3222/3222800.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3222/3222800.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "开始倾诉",
+      "url": "/",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/3222/3222800.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1516589174184-c68d8e5f0b0c?auto=format&fit=crop&q=80&w=1000",
+      "sizes": "1000x2000",
+      "type": "image/jpeg",
+      "label": "温馨对话界面"
     }
   ]
 }
